@@ -1,0 +1,79 @@
+/**
+ * @name VortexCustom
+ * @author Nyria#3863
+ * @version 2.2
+ * @description Stay comfy while talking to your friends.
+ * @invite rtBQX5D3bD
+ * @source https://github.com/NYRI4/Comfy
+ * @BDEditor Comfy
+*/
+
+@import url('https://comfy-themes.github.io/Discord/betterdiscord/main.css');
+@import url('https://nyri4.github.io/Discolored/main.css');
+@import url('https://comfy-themes.github.io/Discord/betterdiscord/no-scrollbar.css');
+@import url('https://comfy-themes.github.io/Discord/betterdiscord/better-spotify.css');
+
+:root {
+  --mention-color-bar: #00BBFF;
+  --mention-color-background: rgb(0,76,104,0.17);
+  --mention-color-hover: rgb(0,129,176,0.26);
+  --mention-color: #0A00FF;
+  --unread-color: #FF0000;
+  --chat-buttons: #BAADFF;
+  --avatar-radius: 12px;
+  --status-radius: 10px;
+  --server-radius: 16px;
+  --status-background: url('https://i.imgur.com/ODa8LKK.jpg');
+  --online: #70FFBE;
+  --iddle: #FACF1A;
+  --dnd: #FF0000;
+  --offline: #555555;
+  --streaming: #854BE9;
+  --spotify-color: #00FF2B;
+  --user-buttons-spacing: 8px;
+  --user-buttons-color: #762EF3;
+  --role-circle: 9px;
+  --discord-logo: none;
+  --colored-emoji: grayscale(0%);
+  --disable-animations: 2s channel-unread infinite;
+}
+
+.theme-dark {
+  --background-primary: #23283D;
+  --background-secondary: #1E2233;
+  --background-secondary-alt: #191F2E;
+  --background-tertiary: #101320;
+  --background-mobile-primary: #23283D;
+  --background-mobile-secondary: #1E2233;
+  --channeltextarea-background: #191F2E;
+  --background-accent: #7289DA;
+  --background-modifier-hover: rgb(46,46,82,0.45);
+  --background-modifier-active: rgba(0, 0, 0, 0.10);
+  --background-modifier-selected: rgb(54,54,82,1);
+  --deprecated-card-bg: rgb(18,20,31,1);
+  --background-floating: rgb(16,19,32,1);
+  --deprecated-quickswitcher-input-background: #101320;
+  --scrollbar-auto-thumb: #121722;
+  --scrollbar-auto-track: #191F2E;
+  --scrollbar-thin-thumb: #141925;
+  --activity-card-background: #101320;
+  --background-message-hover: transparent;
+  --elevation-low: none;
+}
+
+.theme-light {
+  --background-primary: #23283D;
+  --background-secondary: #1E2233;
+  --background-secondary-alt: #191F2E;
+  --background-tertiary: #101320;
+  --background-accent: #7289DA;
+  --background-modifier-hover: #262B41;
+  --background-modifier-active: #262B41;
+  --header-primary: #fff;
+  --header-secondary: #B1B5B9;
+  --text-normal: #8E9297;
+}
+
+/* Any custom CSS below here */
+
+
